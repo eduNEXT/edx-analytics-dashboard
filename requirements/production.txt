@@ -74,4 +74,4 @@ unicodecsv==0.14.1        # via -r requirements/base.txt, djangorestframework-cs
 unidecode==0.4.21         # via -r requirements/base.txt, awesome-slugify
 urllib3==1.25.8           # via -r requirements/base.txt, requests
 wcwidth==0.1.8            # via -r requirements/base.txt, curtsies
-zipp==3.1.0               # via -r requirements/base.txt, importlib-metadata
+zipp==1.2.0               # via -r requirements/base.txt, importlib-metadata

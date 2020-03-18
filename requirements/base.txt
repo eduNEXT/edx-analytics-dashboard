@@ -70,4 +70,4 @@ unicodecsv==0.14.1        # via djangorestframework-csv
 unidecode==0.4.21         # via awesome-slugify
 urllib3==1.25.8           # via requests
 wcwidth==0.1.8            # via curtsies
-zipp==3.1.0               # via importlib-metadata
+zipp==1.2.0               # via importlib-metadata
