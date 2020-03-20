@@ -36,12 +36,13 @@ edx-rest-api-client==3.0.2  # via -c requirements/constraints.txt, -r requiremen
 future==0.18.2            # via pyjwkest
 greenlet==0.4.15          # via bpython
 idna==2.9                 # via requests
-importlib-metadata==1.5.0  # via path.py
+importlib-metadata==1.5.0  # via path
 libsass==0.11.1           # via -r requirements/base.in
 logutils==0.3.5           # via -r requirements/base.in
 newrelic==5.10.0.138      # via edx-django-utils
 oauthlib==3.1.0           # via requests-oauthlib, social-auth-core
-path.py==11.5.2           # via -r requirements/base.in, edx-i18n-tools
+path.py==12.4.0           # via edx-i18n-tools
+path==13.1.0              # via path.py
 pbr==5.4.4                # via stevedore
 pinax-announcements==3.0.2  # via -r requirements/base.in
 polib==1.1.0              # via edx-i18n-tools
