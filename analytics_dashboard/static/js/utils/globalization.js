@@ -1,5 +1,7 @@
 if (window.language === undefined) { // should only occur in test environments
     window.language = 'en';
+} else if (window.language === 'pt-BR') { // since there is no pt-BR file in https://github.com/unicode-cldr/cldr-numbers-modern/tree/master/main
+    window.language = 'pt';
 }
 
 /**
