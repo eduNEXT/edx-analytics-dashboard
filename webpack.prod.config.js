@@ -93,6 +93,10 @@ module.exports = Merge.smart(commonConfig, {
         ]
     },
 
+    output: {
+        publicPath: process.env.DJANGO_STATIC_URL_WEBPACK || '/static/bundles/'
+    },
+
     // Specify additional processing or side-effects done on the Webpack output bundles as a whole.
     plugins: [
         extractCSS,
