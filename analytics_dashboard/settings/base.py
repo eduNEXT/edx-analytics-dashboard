@@ -429,8 +429,8 @@ _ = lambda s: s
 #     {'url': 'http://example.com', 'text': 'Privacy Policy', 'data_role': 'privacy-policy'},
 # )
 FOOTER_LINKS = (
-    {'url': 'http://example.com/', 'text': _('Terms of Service'), 'data_role': 'tos'},
-    {'url': 'http://example.com/', 'text': _('Privacy Policy'), 'data_role': 'privacy-policy'},
+    {'url': 'https://tecnico.ulisboa.pt/pt/informacoes/termos-e-condicoes/', 'text': _('Terms of Service'), 'data_role': 'tos'},
+    {'url': 'https://tecnico.ulisboa.pt/pt/informacoes/termos-e-condicoes/#dados-utilizadores', 'text': _('Privacy Policy'), 'data_role': 'privacy-policy'},
 )
 ########## END LINKS THAT SHOULD BE SHOWN IN FOOTER
 
